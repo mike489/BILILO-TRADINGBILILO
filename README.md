@@ -1,73 +1,56 @@
-# React + TypeScript + Vite
+# 💊 Pharma Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Material UI](https://img.shields.io/badge/MaterialUI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
 
-Currently, two official plugins are available:
+A **modern, responsive landing page** for a pharmaceutical company, built with **React**, **TypeScript**, **Tailwind CSS**, and **Material UI**. This project showcases products, services, and company information with a clean, professional, and interactive interface.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Landing Page Preview](#) <!-- Replace # with image link or GIF -->
 
-## React Compiler
+---
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Fully **responsive design** (mobile, tablet, desktop)  
+- ✅ Built with **TypeScript** for type safety  
+- ✅ Styled with **Tailwind CSS** for fast, maintainable styling  
+- ✅ Uses **Material UI** components for a modern look  
+- ✅ Smooth scrolling and interactive sections:  
+  - Hero / Introduction  
+  - Products & Services  
+  - About Us / Company Info  
+  - Contact Form  
+  - Footer with social links  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🎨 Technologies Used
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+| Technology       | Purpose                          |
+|-----------------|----------------------------------|
+| React            | Frontend library                 |
+| TypeScript       | Type safety and scalability      |
+| Tailwind CSS     | Utility-first styling            |
+| Material UI      | UI components and design system |
+| Vite             | Fast development and build tool |
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📦 Installation
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. **Clone the repository**  
+```bash
+git clone https://github.com/drogatechnology/BILILO-TRADINGBILILO.git
+cd pharma-landing-page
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+npm install
+
+🏗️ Build for Production
+
+npm run build
+# or
+yarn build
+
+
+
