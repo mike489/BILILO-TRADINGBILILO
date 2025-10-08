@@ -1,7 +1,7 @@
 // src/components/ProductGrid.tsx
 import React from "react";
 import { Card, CardContent, Typography } from "@mui/material";
-import coffee from "../../assets/image/coffee.jpg";
+import coffee from "../../assets/image/Coffee.jpg";
 import Sesame from "../../assets/image/Sesame.jpg";
 import Green from "../../assets/image/Green-mung.jpg";
 
