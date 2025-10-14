@@ -5,7 +5,7 @@ import medicalkit from "../../assets/image/medical-kit-with-digital-health-icons
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative bg-gradient-to-r from-gray-100 to-blue-200">
+    <section className="relative bg-gradient-to-r from-gray-100 to-blue-200  pb-40 px-10 sm:px-9 lg:px-8 overflow-visible bg-[#b7a06c] md:bg-[#b7a06c]">
       <Container
         maxWidth="lg"
         className="flex flex-col md:flex-row items-center justify-between py-20"
@@ -61,6 +61,32 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </Container>
+      {/* Stats for Desktop (OVERFLOWING, LEFT SIDE) */}
+      <div className="hidden md:block relative z-20">
+        <div className="px-4 sm:px-6 lg:px-8">
+          <div className="bg-white rounded-lg shadow-xl p-2 2xl:p-6 transform translate-y-40 -mb-24 animate-fade-in-up w-full max-w-2xl 3xl:ml-30">
+            <h3 className="text-center text-[#174946] font-semibold mb-5 text-xl">
+              Our Achievements
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-3 text-center">
+              <div>
+                <p className="text-4xl font-bold text-[#174946]">10+</p>
+                <p className="mt-2 text-gray-600">
+                  Varieties of Vehicles and Machines Imported
+                </p>
+              </div>
+              <div>
+                <p className="text-4xl font-bold text-[#174946]">50+</p>
+                <p className="mt-2 text-gray-600">Global Clients</p>
+              </div>
+              <div>
+                <p className="text-4xl font-bold text-[#174946]">100+</p>
+                <p className="mt-2 text-gray-600">Products Delivered</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

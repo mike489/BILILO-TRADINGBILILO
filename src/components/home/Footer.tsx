@@ -61,14 +61,13 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div>
-          <h3 className="text-red-600 font-semibold mb-3">Locate Us</h3>
+        <div className="relative h-64 rounded-lg overflow-hidden border border-gray-700">
           <iframe
-            title="Location Map"
-            src="https://www.google.com/maps?q=Tropical+Pharma&output=embed"
-            className="w-full h-48 rounded-md border-0"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1019.3299144288549!2d38.77168024381639!3d9.009470535840608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85ad35d3a529%3A0xe140c71d3cb637d8!2zQmFtYmlzIFN1cGVybWFya2V0IHwgQmFtYmlzIHwg4Ymj4Yid4Ymi4Yi1IOGIseGNkOGIreGIm-GIreGKrOGJtSB8IOGJo-GIneGJouGItQ!5e1!3m2!1sen!2set!4v1759999993960!5m2!1sen!2set"
+            className="absolute inset-0 w-full h-full border-0"
             allowFullScreen
             loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>

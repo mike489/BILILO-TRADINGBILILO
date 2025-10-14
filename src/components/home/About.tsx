@@ -4,35 +4,8 @@ import { Button, Typography } from "@mui/material";
 const About: React.FC = () => {
   return (
     <section className="bg-[#f0f9f8] py-16">
-      <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center mt-15">
         <div className="bg-white shadow-lg rounded-md overflow-hidden">
-          <div className="grid grid-cols-3 text-center py-6 border-b-4 border-red-600">
-            <div>
-              <Typography variant="h5" className="font-bold text-gray-900">
-                25<span className="text-red-600">+</span>
-              </Typography>
-              <Typography variant="body2" className="text-red-600">
-                Years Experienced
-              </Typography>
-            </div>
-            <div>
-              <Typography variant="h5" className="font-bold text-gray-900">
-                200<span className="text-red-600">+</span>
-              </Typography>
-              <Typography variant="body2" className="text-red-600">
-                Quality Products
-              </Typography>
-            </div>
-            <div>
-              <Typography variant="h5" className="font-bold text-gray-900">
-                250<span className="text-red-600">+</span>
-              </Typography>
-              <Typography variant="body2" className="text-red-600">
-                Qualified Staffs
-              </Typography>
-            </div>
-          </div>
-
           <div>
             <img
               src="/images/building.jpg"
